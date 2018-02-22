@@ -14,6 +14,7 @@
 		85F5001C203D71E800EA0EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F5001A203D71E800EA0EA3 /* LaunchScreen.storyboard */; };
 		85F50027203D71E900EA0EA3 /* Text_to_SpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F50026203D71E900EA0EA3 /* Text_to_SpeechTests.swift */; };
 		85F50032203D71E900EA0EA3 /* Text_to_SpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F50031203D71E900EA0EA3 /* Text_to_SpeechUITests.swift */; };
+		85F50040203D794C00EA0EA3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5003F203D794C00EA0EA3 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		85F5002D203D71E900EA0EA3 /* Text-to-SpeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text-to-SpeechUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F50031203D71E900EA0EA3 /* Text_to_SpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_to_SpeechUITests.swift; sourceTree = "<group>"; };
 		85F50033203D71E900EA0EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85F5003F203D794C00EA0EA3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				85F50011203D71E800EA0EA3 /* AppDelegate.swift */,
 				85F50013203D71E800EA0EA3 /* ViewController.swift */,
+				85F5003F203D794C00EA0EA3 /* SettingsViewController.swift */,
 				85F50015203D71E800EA0EA3 /* Main.storyboard */,
 				85F50018203D71E800EA0EA3 /* Assets.xcassets */,
 				85F5001A203D71E800EA0EA3 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				85F50014203D71E800EA0EA3 /* ViewController.swift in Sources */,
 				85F50012203D71E800EA0EA3 /* AppDelegate.swift in Sources */,
+				85F50040203D794C00EA0EA3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
